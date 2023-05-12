@@ -1,1 +1,1 @@
-# my-emacs.d-setup
+# my-vim-configuration
