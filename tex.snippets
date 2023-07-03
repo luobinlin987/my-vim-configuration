@@ -56,8 +56,8 @@ endsnippet
 
 snippet subeql "Subequtions" bi
 \begin{subequations}
-	\label\{\}
-	${0:${VISUAL}}
+	\label\{eq:${0:${VISUAL}}\}
+	
 \end{subequations}
 endsnippet
 
@@ -318,7 +318,11 @@ snippet ,b "{}" Aw
 \{${1:${VISUAL}}\}
 endsnippet
 
-snippet ,p "()" Aw
+snippet rmi "{rm i}" Aw
+\{\\rm i\} ${1:${VISUAL}}
+endsnippet
+
+snippet ,l "()" Aw
 (${1:${VISUAL}})
 endsnippet
 
