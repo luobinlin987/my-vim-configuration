@@ -251,23 +251,23 @@ snippet dm "Display Math" w
 endsnippet
 
 snippet frac "Fraction" w
-\frac{$1}{$2}$0
+\frac{ $1 }{ $2 }$0
 endsnippet
 
 snippet compl "Complement" i
-^{c}
+^{\complement}
 endsnippet
 
 snippet ss "Super Script" i
-^{$1}$0
+^{ $1 }$0
 endsnippet
 
 snippet -- "subscript" i
-_{$1}$0
+_{ $1 }$0
 endsnippet
 
 snippet srt "Square Root" wi
-\sqrt{${1:${VISUAL}}}$0
+\sqrt{ ${1:${VISUAL}} }$0
 endsnippet
 
 snippet srto "... Root" wi
@@ -315,7 +315,7 @@ snippet bmat "Bmat" w
 endsnippet
 
 snippet ,b "{}" Aw
-\{${1:${VISUAL}}\}
+\{ ${1:${VISUAL}} \}
 endsnippet
 
 snippet rmi "{rm i}" Aw
@@ -323,7 +323,7 @@ snippet rmi "{rm i}" Aw
 endsnippet
 
 snippet ,l "()" Aw
-(${1:${VISUAL}})
+( ${1:${VISUAL}} )
 endsnippet
 
 snippet () "Left( right)" w
@@ -369,7 +369,7 @@ snippet conj "conjugate" w
 endsnippet
 
 snippet sum "sum" w
-\sum_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
+\sum_{n=${1:1}}^{${2:\infty}} 
 endsnippet
 
 snippet taylor "taylor" w
@@ -385,7 +385,7 @@ snippet limsup "limsup" w
 endsnippet
 
 snippet prod "product" w
-\prod_{${1:n=${2:1}}}^{${3:\infty}} ${4:${VISUAL}} $0
+\prod_{${1:n=${2:1}}}^{${3:\infty}} 
 endsnippet
 
 snippet part "d/dx" w
